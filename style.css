@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #222;
+  overflow: hidden;
+}
+.splash {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  z-index: 10;
+}
+#game-container {
+  width: 100%;
+  height: 100vh;
+}
+canvas {
+  background: #444;
+  display: block;
+}
+#muteBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 16px;
+  z-index: 20;
+}
